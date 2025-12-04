@@ -1,0 +1,53 @@
+/*
+
+Paleta de colores
+
+fondo del formulario: #FFFFFF
+placeholder: #9E9E9E
+enlaces: #009AAE
+fondo: #009AAE
+texto: #000000d9
+fondo-footer: #C0C0C0
+
+*/
+
+body {
+  color: #000000d9;
+  font-family: 'Encode Sans', sans-serif;
+
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+.enlacesPieDePagina {
+  padding-top: 100px;
+}
+
+.enlacesPieDePagina a:active,
+.enlacesPieDePagina a:hover,
+.enlacesPieDePagina a:visited,
+.enlacesPieDePagina a:link  {
+  color: #009AAE;
+}
+
+
+.pieDePagina {
+  background-color: #C0C0C0;
+  font-weight: 600;
+  height: 230px;
+}
